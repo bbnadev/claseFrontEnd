@@ -1,0 +1,40 @@
+body { 
+    padding-top: 56px; 
+}
+
+.portada {
+    position: relative;
+    display: inline-block;
+}
+
+.portada h1 {
+    position: absolute;
+    top: 30%;
+    left: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.712);
+    padding: 5px;
+}
+.portada p {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    right: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.712);
+    padding: 5px;
+}
+
+.portada img {
+    display: block;
+    width: 100vw; 
+    height: auto;
+}
+
+section{
+    width: 100%;
+}
+
+.img-autores{
+    height: 300px;
+}
